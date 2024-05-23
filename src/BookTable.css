@@ -1,0 +1,64 @@
+/* src/BookTable.css */
+.book-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .book-table th,
+  .book-table td {
+    padding: 8px;
+    border: 1px solid #f2f4f6;
+  }
+  
+  .book-table th {
+    background-color: #8585db;
+    text-align: left;
+  }
+  
+  .book-table th span {
+    margin-left: 4px;
+  }
+  
+  .book-table tbody tr:hover {
+    background-color: #dddddd;
+  }
+  
+  .book-table thead button {
+    margin-right: 10px;
+  }
+  
+  .book-table input.search-input {
+    margin-bottom: 10px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #4171cb;
+    border-radius: 4px;
+  }
+  
+  .book-table div.pagination {
+    margin-top: 10px;
+  }
+  
+  .book-table div.pagination button {
+    margin-right: 5px;
+  }
+  
+  .book-table div.pagination select {
+    margin-right: 5px;
+    padding: 5px;
+  }
+  
+  .book-table button.download-csv {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #5adc5f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .book-table button.download-csv:hover {
+    background-color: #4cbe51;
+  }
+  
